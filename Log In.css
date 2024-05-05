@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/974/565/254/windows-11-windows-10-minimalism-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    font-weight:bold;
+    font-size: 45px;
+    padding-bottom: 4px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 2px solid #007bff;
+}
+
+input:focus{
+    background-color: #fff;
+}
+
+button{
+    width: 100%;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    padding: 5px 0px;
+    margin: 10px 0px 25px 0px;
+    background-color: #007bff;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 6px 5px 6px 6px rgba(0,0,0,0.16);
+    border-radius: 12px;
+    padding: 3.5rem;
+    color: black;
+    height: fit-content;
+    align-self: center;
+}

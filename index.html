@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+      async
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <button onclick="scrollToTop()" id="back-to-top-btn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <div class="header" id="#home">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Offers"
+                  >Offers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Trending">Trending</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#Home">Homes Guests Love</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="bar">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+            <div id="action-section"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container1">
+        <div class="box">
+          <h1 style="color: rgb(255, 255, 255); font-weight: 800">
+            <strong> Make yourself at home in paradise</strong>
+          </h1>
+          <br />
+          <div class="trans">
+            <p style="color: rgb(255, 255, 255)">
+              Choose from cabins, houses and more
+            </p>
+          </div>
+          <br />
+          <div
+            class="is-divider"
+            style="
+              margin-top: 0em;
+              margin-bottom: 0em;
+              max-width: 30%;
+              background-color: rgba(247, 241, 241, 0.5);
+            "
+          ></div>
+          <br />
+
+          <a href="#">
+            <button class="Discover">
+              <span class="e4adce92df" style="color: aliceblue"
+                >Discover holiday rentals</span
+              >
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="offers-section" id="Offers">
+      <h2 style="text-align: center">Offers</h2>
+      <br />
+      <div class="offers">
+        <div class="offer">
+          <img
+            src="./images/BH1044050DKatePainterlyCrashingWavesBeachSummerSunsetBackdrop.webp"
+            alt="Offer 1"
+          />
+          <div class="offer-details">
+            <h3>Save 15% on Early Bookings</h3>
+            <p>Book and stay before October 1, 2024</p>
+            <button class="Find" style="color: aliceblue">
+              <a href="#"></a>Learn more
+            </button>
+          </div>
+        </div>
+        <div class="offer">
+          <img src="./images/images.jpg" alt="Offer 2" />
+          <div class="offer-details">
+            <h3>Getaway Deals</h3>
+            <p>Fly away to your dream vacation</p>
+            <a class="btn btn-primary" href="./getawaydeals.html"
+              >Find Getaway Deals</a
+            >
+          </div>
+        </div>
+        <div class="offer">
+          <img
+            src="./images/1626556614_permanent_residence_netherlands_1920x1080.jpg"
+            alt="Offer 2"
+          />
+          <div class="offer-details">
+            <h3>Planning a trip for summer?</h3>
+            <p>Why not try the Netherlands!</p>
+            <button class="Find" style="color: aliceblue">
+              <a href="#"></a>Discover Amsterdam
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="inspiration-section" id="Trending">
+      <h2 style="text-align: center">Trending Destinations</h2>
+      <br />
+      <div class="gallery">
+        <div class="image">
+          <a href="#">
+            <img src="./images/images (2).jpg" alt="Destination 1" />
+            <div class="overlay">
+              <h3>Paris, France</h3>
+              <p>Explore the City of Love</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="image">
+          <a href="#">
+            <img src="./images/images (1).jpg" alt="Destination 2" />
+            <div class="overlay">
+              <h3>Berlin, Germany</h3>
+              <p>Experience the Vibrant Culture</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="image">
+          <a href="./Miami.html">
+            <img
+              src="./images/106740437-1602521855330-gettyimages-584110635-95e986de-1ba7-4f7e-acc6-239fe05ac16c.jpeg"
+              alt="Destination 3"
+            />
+            <div class="overlay">
+              <h3>Miami Beach, Florida</h3>
+              <p>Discover the Marvellous City</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="homes-guests-love" id="Home">
+      <h2 style="font-size: 2rem">Homes guests love</h2>
+      <br />
+      <div class="home-grid">
+        <div class="home">
+          <img
+            src="./images/cozy-beach-house-with-hammock-ocean-views_674594-7351.avif"
+            alt="Home 1"
+          />
+          <h3>Cozy Beach House</h3>
+          <p>Location: Malibu, California</p>
+          <p>Price per night: $150</p>
+          <p>Address: 123 Ocean Avenue</p>
+          <button class="Find" style="color: aliceblue">
+            <a href="#"></a>Learn more
+          </button>
+          <div class="rating">
+            <span class="stars">4.5<i class="fa-solid fa-star"></i></span>
+            <span class="reviews">(25 reviews)</span>
+          </div>
+        </div>
+        <div class="home">
+          <img src="./images/images (4).jpg" alt="Home 2" />
+          <h3>Luxury Villa with Pool</h3>
+          <p>Location: Ibiza, Spain</p>
+          <p>Price per night: $500</p>
+          <p>Address: 456 Sunset Boulevard</p>
+          <button class="Find" style="color: aliceblue">
+            <a href="#"></a>Learn more
+          </button>
+          <div class="rating">
+            <span class="stars">5.0<i class="fa-solid fa-star"></i></span>
+            <span class="reviews">(50 reviews)</span>
+          </div>
+        </div>
+        <div class="home">
+          <img src="./images/Web Estate Rose Cottage.webp" alt="Home 3" />
+          <h3>Charming Cottage in the Countryside</h3>
+          <p>Location: Cotswolds, United Kingdom</p>
+          <p>Price per night: $200</p>
+          <p>Address: 789 Meadow Lane</p>
+          <button class="Find" style="color: aliceblue">
+            <a href="#"></a>Learn more
+          </button>
+          <div class="rating">
+            <span class="stars">4.0<i class="fa-solid fa-star"></i></span>
+            <span class="reviews">(15 reviews)</span>
+          </div>
+        </div>
+        <div class="home">
+          <img src="./images/637867579316652136hNPxy2.jpg" alt="Home 4" />
+          <h3>Modern Apartment in the City Center</h3>
+          <p>Location: New York City, USA</p>
+          <p>Price per night: $300</p>
+          <p>Address: 321 Central Park West</p>
+          <button class="Find" style="color: aliceblue">
+            <a href="#"></a>Learn more
+          </button>
+          <div class="rating">
+            <span class="stars">4.8<i class="fa-solid fa-star"></i></span>
+            <span class="reviews">(35 reviews)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3 class="footer-heading">About</h3>
+          <ul class="footer-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-heading">Sections</h3>
+          <ul class="footer-links">
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Trending Destinations</a></li>
+            <li><a href="#">Homes Guests Love</a></li>
+            <li><a href="#">Null</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-heading">Follow us</h3>
+          <ul class="social-media-links">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 random website. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

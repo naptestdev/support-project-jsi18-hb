@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airplane Ticket Purchase</title>
+  <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <script src="./form.js"></script>
+  <div class="container">
+    <h1>Airplane Ticket Purchase</h1>
+    <div id="flightSearch">
+      <h2>Flight Search</h2>
+      <input type="text" id="origin" placeholder="Origin">
+      <br>
+      <input type="text" id="destination" placeholder="Destination">
+      <br>
+      <input type="date" id="departureDate">
+      <br>
+      <input type="date" id="returnDate">
+      <br>
+      <select id="passengerCount">
+        <option value="1">1 Passenger</option>
+        <option value="2">2 Passengers</option>
+        <option value="3">3 Passengers</option>
+        <!-- Add more options if needed -->
+      </select>
+      <br>
+      <select id="class">
+        <option value="economy">Economy</option>
+        <option value="business">Business</option>
+        <option value="first">First Class</option>
+      </select>
+      <br>
+      <button onclick="searchFlights()">Search</button>
+    </div>
+    <div id="flightResults"></div>
+    <!-- Additional sections (Passenger Info, Payment, etc.) can be added here -->
+  </div>
+</body>
+</html>
