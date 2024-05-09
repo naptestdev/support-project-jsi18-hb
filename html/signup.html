@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="home">
+        <div class="navbar" id="navbar"></div>
+        <div class="signup">
+            <h1 id="signupTitle">Sign Up</h1>
+            <form id="signupForm">
+                <div class="upper-signup">
+                    <div class="name">
+                        <div class="firstName inputs">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="firstName" id="firstName">
+                            <div class="error" id="firstNameError"></div>
+                        </div>
+                        <div class="lastName inputs">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lastName" id="lastName">
+                            <div class="error" id="lastNameError"></div>
+                        </div>
+                    </div>
+                    <div class="email inputs">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                        <div class="error" id="emailError"></div>
+                    </div>
+                    <div class="password inputs">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <div class="error" id="passwordError"></div>
+                    </div>
+                    <div class="confirmPassword inputs">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword">
+                        <div class="error" id="confirmPasswordError"></div>
+                    </div>
+                </div>
+                <div class="lower-signup">
+                    <button id="signup">Sign Up</button>
+                    <a href="../html/signin.html">Already have an account? Sign In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        
+    </div>
+
+    <!-- <script type="module" src="../js/database.js"></script> -->
+    <script type="module" src="../js/register.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/ui.js"></script>
+</body>
+</html>

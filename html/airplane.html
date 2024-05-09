@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="home">
+        <div class="navbar" id="navbar"></div>
+        <div class="main">
+            <div class="airplanes" id="airplanes">
+                <div class="airplane">
+                    <div class="upper-airplane">
+                        <div class="from-to">
+                            <div class="from">Hà Nội</div>
+                            <div> đến </div>
+                            <div class="to">Nha Trang</div>
+                        </div>
+                        <div class="firm"><img src="../assets/vietnamairlines.png" alt=""></div>
+                    </div>
+                    <div class="lower-plane">
+                        <div class="upper-lower-plane">
+                            <div class="from-date-to-date">
+                                <div class="from-date">3/11</div>
+                                <div> đến </div>
+                                <div class="to-date">5/11</div>
+                            </div>
+                            <div class="plane-price">Giá: 3.296.000 VND</div>
+                        </div>
+                        <div class="lower-lower-plane">
+                            <button>Xem</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        
+    </div>
+    <script type="module" src="../js/database.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/ui.js"></script>
+
+    <script>
+        renderAirplanes();
+    </script>
+</body>
+</html>

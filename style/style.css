@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+body {
+  background-color: #fff8bf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff691e;
+}
+
+.navbar {
+  display: flex;
+  background-color: #ffad84;
+  justify-content: space-between;
+  position: fixed;
+  width: 80%;
+  height: 10vh;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.user-area {
+  margin-right: 10px;
+  height: 100%;
+  display: flex;
+  width: 15%;
+  align-items: center;
+}
+
+.diy-avt {
+  border-radius: 9999px;
+  background-color: #009dff;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: #ffc47e;
+  height: 55vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+
+.banner button {
+  width: auto;
+}
+
+.banner-button {
+  display: flex;
+  align-items: center;
+  height: 18vh;
+  width: 35vh;
+  justify-content: center;
+}
+
+input,
+button {
+  border: none;
+  background-color: #fff679;
+}
+
+input {
+  border-radius: 3px;
+}
+
+button {
+  height: 40px;
+  width: 85px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input:hover {
+  box-shadow: 5px 5px 5px rgba(96, 103, 0, 0.5);
+}
+
+button:hover {
+  background-color: #fff132;
+  box-shadow: 5px 5px 5px rgba(96, 103, 0, 0.5);
+}
+
+.trending-tours {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.trending-tour {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #939393;
+  height: auto;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.trending-tour:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.trending-tour h5 {
+  margin-top: 5px;
+}
+
+.trending-tour img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.rates {
+  display: flex;
+  justify-content: start;
+}
+
+.rates > div {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.rates h4 {
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+.prices {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.old-price span {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #727272;
+  margin-right: 5px;
+}
+
+.new-price span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.positive-rates {
+  color: #19bf00;
+}
+
+.negative-rates {
+  color: #9d0000;
+}
+
+.signup {
+  height: auto;
+  margin-top: 13vh;
+  background-color: #ffb846;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.lower-signup {
+  margin: 10px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.upper-signup input {
+  width: 90%;
+  height: 40px;
+}
+
+.signup h1 {
+  margin-top: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name {
+  display: flex;
+}
+
+.name input {
+  width: 80%;
+}
+
+.footer {
+  width: 80%;
+  height: 50vh;
+  background-color: #fff78a;
+  margin-top: 10vh;
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: space-around;
+  height: 90%;
+}
+
+.lower-footer {
+  border-top: 1px solid #939393;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.upper-footer div {
+  margin-top: 5px;
+}
+
+.copyright {
+  color: #939393;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-area {
+  margin-top: 15vh;
+  background-color: #ffb846;
+  border-radius: 5px;
+  width: 50%;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#inputTours {
+  width: 85%;
+  height: 40px;
+}
+
+#searchTours {
+  width: 40px;
+  height: 40px;
+}
+
+.tour-information {
+  margin-top: 15vh;
+  display: flex;
+  width: 80%;
+}
+
+.infor {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+}
+
+.add-to-cart button {
+  width: 120px;
+  margin: 0px 5px;
+}
+
+.main {
+  margin-top: 10vh;
+  width: 100%;
+}
+
+.airplanes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.airplane {
+  margin: 10px 10px;
+  border-radius: 10px;
+  background-color: #dadada;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #727272; */
+}
+
+.airplane:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.upper-airplane {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.firm {
+  width: 30%;
+}
+
+.upper-airplane img {
+  width: 100%;
+}
+
+.from-to {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+.lower-plane {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.upper-lower-plane {
+  display: flex;
+  flex-direction: column;
+}
+
+.from-date-to-date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.plane-price {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .trending-tours {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .open-menu {
+    margin-left: 10px;
+  }
+
+  .trending-tour {
+    width: 100%;
+  }
+
+  /* .open-menu:hover  */
+
+  .menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .diy-avt {
+    width: 30px;
+    height: 30px;
+  }
+
+  .menu-open {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffad84;
+    /* margin-top: 10px; */
+    width: 150px;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-area {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+
+.forward {
+  /* z-index: 9999; */
+}
+
+.hotel-room {
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.hotel-room:hover {
+  transform: translateY(-5px);
+}
+
+.hotel-room img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px 0 0 8px;
+  transition: transform 0.3s ease;
+}
+
+.hotel-room:hover img {
+  transform: scale(1.1);
+}
+
+.details {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.details h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.location {
+  margin-top: 5px;
+  color: #888;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.details button,
+.details a {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.details button:hover,
+.details a:hover {
+  background-color: #0056b3;
+}
+.details h1 {
+  text-align: center;
+  color: #007bff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.details h1:hover {
+  transform: scale(1.1);
+}

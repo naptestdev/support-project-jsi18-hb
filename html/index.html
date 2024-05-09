@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="home">
+      <div class="navbar" id="navbar"></div>
+      <div class="banner">
+        <div class="banner-text">
+          <h1>Trải nghiệm kỳ nghỉ tuyệt vời</h1>
+        </div>
+        <div class="banner-button">
+          <a href=""
+            ><button>
+              Tìm kiếm ngay! <i class="fa-solid fa-arrow-right"></i></button
+          ></a>
+        </div>
+      </div>
+      <div class="trending-tours" id="trendingTours">
+        <!-- <div class="trending-tour">
+                <img src="../assets/toa-thanh-tay-ninh.png" alt="Not Found">
+                <h5>Tour Núi Bà Đen và Toà Thành Tây Ninh Trong Ngày</h5>
+                <div class="rates">
+                    <div class="positive-rates">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <h4>298</h4>
+                    </div>
+                    <div class="negative-rates">
+                        <i class="fa-solid fa-thumbs-down"></i>
+                        <h4>20</h4>
+                    </div>
+                </div>
+                <div class="prices">
+                    <div class="old-price"><span>550.000đ</span></div>
+                    <div class="new-price"><span>500.000đ</span></div>
+                </div>
+            </div> -->
+      </div>
+    </div>
+    <div class="footer" id="footer"></div>
+
+    <script type="module" src="../js/database.js"></script>
+    <script type="module" src="../js/app.js"></script>
+    <script type="module">
+      import { renderTours } from "../js/app.js";
+      renderTours();
+    </script>
+    <script src="../js/ui.js"></script>
+  </body>
+</html>
