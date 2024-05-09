@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="stylesheet" href="../styles/backtotop.css" />
+  </head>
+  <body>
+    <title>Back to Top Button</title>
+    <a id="back-to-top" href="#"><i class="fa-solid fa-plane-up"></i></a>
+    <div class="container">
+      <header>
+        <div class="header">
+          <div class="logo"><a href="#">Summer time</a></div>
+          <nav id="nav">
+            <ul id="menu">
+              <li><a href="main.html">Trang chủ</a></li>
+              <li><a href="quanao.html">Quần áo</a></li>
+              <li><a href="vatdung.html">Vật dụng</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li id="navbar-action"></li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <main>
+        <h1>iCream</h1>
+        <form>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <p>
+            Already have an account? <a href="./login.html">Sign In Here</a>
+          </p>
+          <button type="submit">Sign Up</button>
+        </form>
+      </main>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <footer>
+        <div class="footer-content">
+          <div class="left-section">
+            <h3>Về chúng tôi</h3>
+            <p>Thông tin về công ty</p>
+            <p>Địa chỉ công ty</p>
+          </div>
+          <div class="right-section">
+            <h3>Liên hệ</h3>
+            <p>Email: dotunglam3108@gmail.com</p>
+            <p>Điện thoại: 077-454-9812</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="../js/backtotop.js"></script>
+    <script type="module" src="../js/firebase.js"></script>
+    <script type="module" src="../js/register.js"></script>
+    <script src="../js/controller.js"></script>
+  </body>
+</html>

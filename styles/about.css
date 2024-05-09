@@ -1,0 +1,49 @@
+.tiller{
+    padding: 30px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.content p{
+    line-height: 20px;
+    opacity: 0.5;
+}
+.founder{
+    text-align: center;
+}
+.tvien img{
+
+    width: 20%;
+}
+.tvien span{
+    opacity: 0.5;
+}
+.tvien p{
+    padding: 20px 0px;
+}
+.tvien h3{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.dev{
+    padding-top: 20px;
+}
+.dev i{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #00204a;
+    border-radius: 50%; 
+    color: #fff;
+}
+.dev i:hover{
+     background-color: #fffefe;
+     color: #21508d;
+    
+}
+
+
+.Thank{
+    font-size: 30px;
+}

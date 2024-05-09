@@ -1,0 +1,134 @@
+
+.tieude {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.banner {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-image: url(https://positivelyyou.org.uk/wp-content/uploads/2022/05/Summer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+  }
+  
+.content {
+    /* flex: 1; */
+    padding-right: 20px;
+    text-align: left;
+  }
+  .content h1{
+    color: #e5ff00;
+  }
+  .content p{
+    color: #e5ff00;
+  }
+  /* .image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  } */
+  
+  #show-more-btn {
+    background-color: #e5ff00;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #show-more-btn:hover {
+    background-color: #0688fa;
+  }
+  /*category*/
+  .categorys{
+    display: flex;
+    justify-content: space-between;
+  }
+  .categorys img{
+    width: 200px;
+  }
+  .category{
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+  }
+/*product*/
+.product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+    transition: transform .5s;
+    transform: translateX();
+}
+.khung1{
+    border: 2px solid #0688fa;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.khung1:hover img {
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+.khung1 img{
+    width: 100%;
+    margin-bottom: 8px; 
+   
+}
+.khung1 .images{
+    overflow: hidden;
+    height: 320px;
+}
+.khung1 h3{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e5ff00 ;
+    width: 120px;
+  
+    color: #000000;
+}
+
+
+.khung1 p{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.khung1 a{
+    text-decoration: none;
+    padding: 12px 20px ;
+    background-color: #e5ff00 ;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 10px;
+    
+}
+.khung1 a:hover{
+    background-color: #0688fa;
+}
+
+
+#icon{
+  font-size: 100px;
+  color: #0688fa;
+}
